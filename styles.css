@@ -18,3 +18,37 @@ body {
 h2.heading {
   font-size: 200%;
 }
+
+
+.bordered {
+  border-style: solid;
+  border-color: #d3dbec;
+  border-width: 3px;
+  padding: 5px;
+  border-radius: 9px;
+  margin: 5px;  
+  background-color: #d3dbec;
+  color: #666666;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #8a8d8d;
+}
+
+a:hover, a:visited {
+  color: #d1bec5;
+}
+
+hr {
+  height: 2px;
+  border: 0px;
+  background-color: #d1bec5;
+}
+
+#footer {
+  font-size: 120%;
+  text-align: center;
+}
+
