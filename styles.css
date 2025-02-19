@@ -1,5 +1,5 @@
 body {
-  background-color: #b0d4d5;
+  background-color: #d3e8ec;
   color: black;
   text-align: left;
   font-family: Afacad;
@@ -12,7 +12,7 @@ body {
   text-align: center;
   font-size: 300%;
   color: black;
-  text-shadow: #d5b0c1 2px 2px;
+  text-shadow: #ecd3dc 2px 2px;
 }
 
 h2.heading {
@@ -26,7 +26,6 @@ h2.heading {
   border-width: 3px;
   padding: 5px;
   border-radius: 9px;
-  margin: 5px;  
   background-color: #d3dbec;
   color: #666666;
 }
@@ -45,6 +44,7 @@ hr {
   height: 2px;
   border: 0px;
   background-color: #d1bec5;
+  color: #d1bec5;
 }
 
 #footer {
