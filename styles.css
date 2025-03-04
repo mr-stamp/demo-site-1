@@ -7,6 +7,15 @@ body {
   margin-right: 10%;
 }
 
+#bg {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: -999;
+  top: 0px;
+  left: 0px;
+}
+
 .heading {
   font-family: 'Edu AU VIC WA NT Hand', cursive;
   text-align: center;
