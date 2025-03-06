@@ -7,6 +7,7 @@ body {
   text-align: center;
   font-family: 'Rouge Script';
   font-size: 300%;
+  margin-bottom: 15px;
 }
 
 #bg {
@@ -26,14 +27,21 @@ body {
 #preheader {
   width: 100%;
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 30px;
+}
+
+#preheader img {
+  position: absolute;
+  width: 18%;
+  top: 10px;
+  left: 10px;
 }
 
 #header {
   width: 100%;
   position: sticky;
   top: 0px;
-  padding: 5px 0px 15px;
+  padding: 0px 0px 0px;
 }
 
 #links {
@@ -50,6 +58,9 @@ body {
   text-align: center;
   color: gray;
   margin: auto;
+  flex-grow: 1;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .navlink:hover {
@@ -62,6 +73,7 @@ body {
   color: #2f4f4f;
   padding: 0px;
   margin: 0px;
+  border: solid 1px #2f4f4f;
 }
 
 #content {
@@ -69,6 +81,14 @@ body {
   margin-right: 15%;
   padding: 5px 15px 5px;
   background-color: rgb(255, 255, 255, 0.8);
+}
+
+hr {
+  width: 50%;
+  height: 2px;
+  background-color: #2f4f4f;
+  border: 0px;
+  margin-bottom: 0px;
 }
 
 .article {
@@ -83,7 +103,7 @@ body {
   float: right;
   padding: 10px;
   width: 30%;
-  border: solid 1px gray;
+  border: solid 1px #2f4f4f;
   text-align: center;
   font-style: italic;
   font-size: 75%;
@@ -101,12 +121,43 @@ br {
 }
 
 #footer {
-  
+  font-size: 75%;
+  width: 100%;
+  background-color:#2f4f4f;
+  color: #eee;
+  margin: 0px;
 }
 
-hr {
-  width: 50%;
-  height: 2px;
-  background-color: #2f4f4f;
-  border: 0px;
+#footer {
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0px;
+}
+
+#publish-info {
+  flex-grow: 1;
+  text-align: right;
+  padding-right: 10%;
+}
+
+#address {
+  flex-grow: 1;
+  text-align: left;
+  padding-left: 10%;
+}
+
+.vertical-bar {
+  border: solid 1px #eee;
+  height: 5lh;
+  flex-grow: 0;
+}
+
+#address a {
+  color: #eee;
+}
+
+#footer p, #footer br {
+  margin: 0px;
 }
