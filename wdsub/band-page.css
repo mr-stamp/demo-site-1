@@ -1,24 +1,25 @@
 body {
   margin: 0px;
+  background-color: #ffcc99;
+  font-family: "Faculty Glyphic";
 }
 
 #content, #album, #info {
   float: left;
+  margin: 0px 5px 0px;
 }
 
 #content {
-  border: solid 2px red;
   width: 50%;
+  margin: 0px 5px 0px;
 }
 
 #album {
-  border: solid 2px blue;
   width: 30%;
 }
 
 #info {
-  border: solid 2px green;
-  max-width: 19%;
+  max-width: 15%;
 }
 
 #banner {
@@ -27,12 +28,49 @@ body {
 
 #player button {
   float: left;
+  margin: 8px;
 }
 
 #player audio::-webkit-media-controls-play-button {
   display: none;
 }
 
+#player audio::-webkit-media-controls-panel {
+  background-color: #ffddaa;
+}
+
 #player audio {
   height: 1em;
+}
+
+#tracklist {
+  list-style-type: none;
+}
+
+.track-li {
+  font-size: 125%;
+  font-style: italic;
+}
+
+.track-player::-webkit-media-controls-panel {
+  background-color: #ffcc99;
+}
+
+.track-player {
+  height: 1em;
+}
+
+#album-cover {
+  width: 100%;
+}
+
+#info img {
+  max-width: 80%;
+  margin: auto;
+  display: block;
+}
+
+a {
+  color: #55aaaa;
+  text-decoration: none;
 }
