@@ -3,16 +3,19 @@
 <head>
   <title>The Band Guys</title>
   <link rel="stylesheet" href="band-page.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Faculty+Glyphic&family=Fontdiner+Swanky&display=swap" rel="stylesheet">
 </head>
 <body>
   <div id="header">
   <img src="https://mr-stamp.github.io/demo-site-1/resource/Heinrich_von_Ferstel_-_bust_in_the_vestibule_of_the_big_ballroom_-_2079-HDR.jpg" id="banner">
 </div>
 <div id="content">
-  <h1>ALBUM TITLE</h1>
+  <h1>Baby's First Album</h1>
   <p>by <a href="#">BAND NAME</a></p>
   <div id="player">
-    <button><svg viewBox="0 0 448 512" width="40px" title="play">
+    <button id="big-play-button"><svg viewBox="0 0 448 512" width="40px" title="play">
   <path d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z" />
 </svg></button>
     <!--TODO: Use JS to update track title when new track is selected.-->
@@ -31,43 +34,48 @@
   <div>
     <h2><a href="#">Share / Embed</a></h2>
   </div>
-  <ol id="tracklist">
-    <li class="track-li" id="track-li-1"><span class="title-li">Turkey in the Straw</span> <span class="length-li">02:44</span></li>
-    <li class="track-li" id="track-li-2"><span class="title-li">Turkey in the Straw</span> <span class="length-li">02:44</span></li>
-    <li class="track-li" id="track-li-3"><span class="title-li">Turkey in the Straw</span> <span class="length-li">02:44</span></li>
-    <li class="track-li" id="track-li-4"><span class="title-li">Turkey in the Straw</span> <span class="length-li">02:44</span></li>
-    <li class="track-li" id="track-li-5"><span class="title-li">Turkey in the Straw</span> <span class="length-li">02:44</span></li>
-    <li class="track-li" id="track-li-6"><span class="title-li">Turkey in the Straw</span> <span class="length-li">02:44</span></li>
-  </ol>
+  <ul id="tracklist">
+    <li class="track-li" id="track-li-1">Turkey in the Straw<audio controls class="track-player"><source src="https://mr-stamp.github.io/demo-site-1/resource/tracks/Turkey_in_the_Straw.ogg"></audio></li>
+    <li class="track-li" id="track-li-2">Caprice No. 1<audio controls class="track-player"><source src="https://mr-stamp.github.io/demo-site-1/resource/tracks/Joachim_Andersen_-_Caprice_No.1_Op.15_-_Arr_for_alto_saxophone_-_David_Hernando_Vitores.ogg"></audio></li>
+    <li class="track-li" id="track-li-3">Manic Polka<audio controls class="track-player"><source src="https://mr-stamp.github.io/demo-site-1/resource/tracks/Manic_Polka_(ISRC_USUAN1100168).mp3"></audio></li>
+    <li class="track-li" id="track-li-4">Caprice No. 16<audio controls class="track-player"><source src="https://mr-stamp.github.io/demo-site-1/resource/tracks/Niccolò_Paganini_-_Caprice_No.16_-_Arr_for_alto_saxophone_-_David_Hernando_Vitores.ogg"></audio></li>
+    <li class="track-li" id="track-li-5">Liverya Stable Blues<audio controls class="track-player"><source src="https://mr-stamp.github.io/demo-site-1/resource/tracks/Original_Dixieland_Jass_Band_-_Livery_Stable_Blues_(1917)_alternate_edit.ogg"></audio></li>
+    <li class="track-li" id="track-li-6">Caprice No. 8<audio controls class="track-player"><source src="https://mr-stamp.github.io/demo-site-1/resource/tracks/Rodolphe_Kreutzer_-_Caprice_No.8_-_Arr_for_alto_saxophone_-_David_Hernando_Vitores.ogg"></audio></li>
+  </ul>
   <div>
-    <p></p>
-    <h3></h3>
-    <p></p>
-    <p></p>
-    <h3></h3>
-    <p></p>
-    <cite></cite>
+    <p>Baby's First Album is Mr. Stamp Collective's first full-length album.</p>
+    <h3>ALBUM DETAILS</h3>
+    <p>All songs written, recorded, and produced by Mr. Stamp Collective at Firebird Records in Spring 2025.</p>
+    <p>Mr. Stamp Collective: Mr. Stamp / Mrs. Stamp / The dumb cat<br>
+      Lyrics written by Google Gemini.<br>
+      Cover art created by Roy Biv.
+    </p>
+    <h3>SPECIAL THANKS</h3>
+    <p>Youngsville Academy ninth grade class, Mr. Larry Henson, The Grinch that stole Christmas, The State of Hawaii, dumb cat.</p>
+    <cite>(C) 2025 Firebird Records</cite>
   </div>
 </div>
 <div id="album">
-  <img id="album-cover" src="#">
+  <img id="album-cover" src="https://mr-stamp.github.io/demo-site-1/resource/album-cover.jpg">
 </div>
 <div id="info">
-  <img src="#">
-  <p></p>
-  <a></a><br>
-  <a></a><br>  
-  <a></a><br>
+  <img src="https://mr-stamp.github.io/demo-site-1/resource/band-pic.jpg">
+  <p>It's just me, my wife, and her dumb cat. This music is actually public domain. We don't make music. We don't even make dinner.</p>
+  <a href="#">Facebook</a><br>
+  <a href="#">Twitter</a><br>  
+  <a href="#">YouTube</a><br>
   <br>
-  <a></a>
+  <a href="#">Recommendations</a>
   <hr>
-  <h3></h3>
-  <img src="#">
-  <a></a>
-  <img src="#">
-  <a></a>
-  <img src="#">
-  <a></a>
+  <h3>discography</h3>
+  <img src="https://mr-stamp.github.io/demo-site-1/resource/side-album-1.jpg">
+  <a href="#">Blimp Music<br>
+    Apr 2021
+  </a>
+  <img src="https://mr-stamp.github.io/demo-site-1/resource/side-album-2.jpg">
+  <a href="#">Hotel Guatemala<br>
+    Mar 1999
+  </a>
 </div>
 </body>
 </html>
