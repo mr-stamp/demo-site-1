@@ -44,12 +44,23 @@ body {
 }
 
 #list-grp {
-  margin: 20px;
+  margin: 20px 15%;
   padding: 10px;
   font-size: 150%;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 #list-grp ul li {
   list-style-type: none;
   margin: 10px 0px;
+}
+
+#footer {
+  font-size: 120%;
+  text-align: center;
+}
+
+a, a:hover, a:visited {
+  color: rgba(80, 100, 255, 1);
+  text-decoration: none;
 }
