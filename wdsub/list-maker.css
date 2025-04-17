@@ -1,6 +1,7 @@
 body {
   margin: 0px;
   background-image: url(https://upload.wikimedia.org/wikipedia/commons/e/e2/Free_Wrinkled_Lined_Blank_Notebook_Paper_High_Resolution_Creative_Commons_%288077064004%29.jpg);
+  background-image: url(/resource/paper-bg.jpg);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
