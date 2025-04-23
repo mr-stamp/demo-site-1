@@ -62,3 +62,38 @@ hr {
   text-align: center;
 }
 
+#nav-list {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  list-style-type: none;
+  position:relative;
+  background-color: #d3dbec;
+}
+
+#nav-list > li {
+  flex-grow: 1;
+  display: block;
+  margin: auto;
+}
+
+#nav-list ul {
+  display: none;
+  background-color: #a3abbc;
+  width: 100%;
+}
+
+#nav-list li:hover {
+  background-color: #a3abbc;
+  color: #d3dbec;
+}
+
+#nav-list li:hover ul {
+  display: block;
+}
+
+#nav-list li ul {
+  list-style-type: none;
+  padding: 0px;
+  position: absolute;
+}
