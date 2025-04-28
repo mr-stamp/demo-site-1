@@ -1,0 +1,42 @@
+.photo-row {
+  display: flex;
+}
+
+.photo-container {
+  flex-grow: 1;
+  border: 3px solid black;
+  margin: 1em;
+  padding: 1em;
+  text-align: center;
+  font-style: italic;
+}
+
+.photo-container img {
+  max-height: 150px;
+}
+
+#big-container {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100vw;
+  height: 100vh;
+  padding: 10%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+#big-container div {
+  width: 70%;
+  padding: 5%;
+  background-color: white;
+}
+
+#big-img {
+  max-height: 75vh;
+}
+
+
