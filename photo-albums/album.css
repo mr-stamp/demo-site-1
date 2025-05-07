@@ -24,9 +24,9 @@
   left: 0px;
   right: 0px;
   width: 100vw;
-  height: 100vh;
   padding: 10%;
   background-color: rgba(0, 0, 0, 0.4);
+  overflow-y: auto;
 }
 
 #big-container div {
@@ -34,9 +34,3 @@
   padding: 5%;
   background-color: white;
 }
-
-#big-img {
-  max-height: 75vh;
-}
-
-
