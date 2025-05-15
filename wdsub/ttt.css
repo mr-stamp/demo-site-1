@@ -16,6 +16,21 @@ body {
 
 #winner {
   display: none;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 4em;
 }
 
+#winner div {
+  margin: auto;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-size: xx-large;
+  padding: 2em;
+}
 
