@@ -13,8 +13,17 @@
     
     <img id="bg" src="/demo-site-1/resource/bg.png">
     <div class="bordered">
-      <h2 class="heading">✖️➕➖➗Welcome to Mr. Stamp's site✖️➕➖➗</h2>
+      <h2 class="heading">✖️➕➖➗Welcome<span id="userspan"></span> to Mr. Stamp's site✖️➕➖➗</h2>
     </div>
     <hr>
+
+    <script>
+      let urlParams = new URLSearchParams(window.location.search);
+      if (urlParams.has("variable1")) {
+        let username = urlParams.get("variable1");
+        let userspan = document.getElementById("userspan");
+        userspan.innerText = ", " + username + ",";
+      }
+    </script>
   </body>
 </html>
