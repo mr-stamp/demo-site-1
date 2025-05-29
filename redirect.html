@@ -1,0 +1,22 @@
+<!DOCTYPE>
+<html>
+<head>
+  <title>redirect</title>
+  <script>
+    let urlParams = new URLSearchParams(window.location.search);
+    let username = urlParams.get("variable1");
+
+    if (username == "KING STAMP") {
+      //redirect to secret page
+      window.location.replace("https://mr-stamp.github.io/demo-site-1/secret.html");
+    } else {
+      //redirect to home
+      window.location.replace("https://mr-stamp.github.io/demo-site-1/home.html");
+    }
+    
+  </script>
+</head>
+<body>
+  <p>redirecting...</p>
+</body>
+</html>
